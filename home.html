@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="images/TELECURE.png">
+  <script src="https://kit.fontawesome.com/d6378c5927.js" crossorigin="anonymous"></script>
+  <title>TeleCure - Home</title>
+</head>
+<body class="home">
+  <div class="navigation">
+    <div class="logo">
+      <img src="images/TELECURE.png" alt="TeleCure">
+  </div>
+
+
+  <nav class="navbar">
+    
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <div class="dropdown">
+        <li><a href="#">Login</a></li>
+
+        <div class="dropdown-content">
+          <a href="patient.html" target="_blank">Patient</a>
+          <a href="doctor.html" target="_blank">Doctor</a>
+      </div>
+      
+    </ul>
+  </nav>
+
+  <div class="off-screen-menu">
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+     
+      <div class="dropdown">
+        <ul>
+          <li><a href="login.html">Login</a></li>
+
+        <div class="dropdown-content">
+          <a href="patient.html" target="_blank">Patient</a>
+          <a href="doctor.html" target="_blank">Doctor</a>
+      </div>
+        </ul>
+        
+      
+    </ul>
+  </div>
+
+  <nav class="mobile-nav">
+    <div class="ham-menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+</div>
+
+<section class="hero">
+  <div class="catch">
+    <h1>Your health, our priority</h1>
+  <p>Experience convenience in health care.</p> 
+  <button onclick="window.open('patreg.html')">Get Started</button>
+  </div>
+
+</section>
+
+<section class="about">
+  <div class="about-text">
+    <h3>ACCESSIBLE VIRTUAL CARE</h3>
+    <h4>Your health, our priority</h4>
+    
+    <p>Telecure provides accessible telemedicine services in Nairobi, KE, connecting patients of all ages with qualified healthcare professionals. Enjoy secure and convenient online appointments that prioritize your health and well-being. Our platform emphasizes comprehensive care, ensuring you receive the attention you deserve without the hassle of traveling. Experience the future of healthcare with Telecure, where every consultation counts.</p>
+  </div>
+  <div class="about-image">
+    <img src="images/doctors.jpg" alt="TeleCure">
+  </div>
+</section>
+
+<section class="services">
+  <div class="service-txt">
+    <h3>EXPERT VIRTUAL CARE</h3>
+    <h4>
+      Accessible healthcare at your fingertips
+    </h4>
+  </div>
+
+  <div class="service">
+    <div class="service-item">
+      <img src="images/consult.jpg" alt="Consultation">
+      <h4>Virtual consultation ></h4>
+      <p>Experience healthcare from the comfort of your home</p>
+
+    </div>
+
+    <div class="service-item">
+      <img src="images/specialist.jpg" alt="Specialist">
+      <h4>Specialist access ></h4>
+      <p>Connect with top specialists without the wait</p>
+  </div>
+
+  <div class="service-item">
+    <img src="images/family.jpg" alt="Family health management >">
+    <h4>Family health management ></h4>
+    <p>Your family's health is just a click away</p>
+</section>
+
+<section class="contact" id="contact">
+  <div class="contact-form">
+    <h3>Get in touch</h3>
+    <p>We're here to assist you!</p>
+    <form action="" id="contactForm" class="contactForm">
+      <div class="form-control">
+        <label for="contactName">Name</label>
+        <input type="text" placeholder="Joe Doe" id ="contactName" class="contactName">
+        <div class="nameError"></div>
+      </div>
+     
+
+      <div class="form-control">
+        <label for="contactEmail" >Email</label>
+      <input type="email" placeholder="email@website.com" id="contactEmail" class="contactEmail">
+      <div class="emailError"></div>
+      </div>
+      
+
+      <div class="form-control">
+        <label for="contactPhone" >Phone number</label>
+        <input type="tel" placeholder="555-555-5555" id="contactPhone" class="contactPhone">
+        <div class="phoneError"></div>
+      </div>
+     
+
+      <div class="form-control">
+        <label for="Message">Message</label>
+        <textarea id="contactMessage" class="contactMessage"></textarea>
+        <div class="messageError"></div>
+      </div>
+     
+
+      <div class="form-control">
+        <div class="checkbox">
+        <input type="checkbox" name="query" id="query" class="query">
+        <label for="query">I allow this website to store my submission so they can respond to my inquiry.</label>
+        <div id="queryError"></div>
+      </div>
+      </div>
+      
+
+      <button type="submit" >Submit</button>
+    </form>
+      
+    
+  </div>
+
+  <div class="contact-info">
+    <div class="location">
+      <img src="images/location.jpg" alt="location">
+    </div>
+   
+      <h3>Get in touch</h3>
+
+      <div class="icon">
+        <i class="fa-regular fa-envelope custom"></i>
+        <p>telecure@gmail.com</p>
+      </div>
+
+      <h3>Location</h3>
+      <div class="icon">
+        <i class="fa-regular fa-map custom"></i>
+        <p>Telecure, Nairobi, KE</p>
+      </div>
+    
+      <h3>Hours</h3>
+      <div class="time">
+        <div class="day">
+          <p>Mon</p>
+          <p>Tue</p>
+          <p>Wed</p>
+          <p>Thu</p>
+          <p>Fri</p>
+          <p>Sat</p>
+          <p>Sun</p>
+        </div>
+  
+        <div class="hour">
+          <p>8:00am - 10:00pm</p>
+          <p>8:00am - 10:00pm</p>
+          <p>8:00am - 10:00pm</p>
+          <p>8:00am - 10:00pm</p>
+          <p>8:00am - 10:00pm</p>
+          <p>8:00am - 10:00pm</p>
+          <p>8:00am - 8:00pm</p>
+        </div>
+  
+      </div>
+      
+</section>
+
+<footer>
+  <div class="footer-nav">
+    <div class="subscribe">
+      <div class="sub-icon">
+        <i class="fa-regular fa-envelope custom"></i>
+        <p>Stay updated on our latest services and offers</p>
+      </div>
+      
+      <form>
+        <input type="email" placeholder="Your email" id="email">
+        <button type="submit">Subscribe</button>
+      </form>
+  
+    </div>
+  
+    <div>
+      <div class="links">
+        <div class="socials">
+          <h6 style="margin-right: 50px;">FOLLOW US</h6>
+          <div class="social-icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin-in"></i>
+          </div>
+        </div>
+  
+        <div class="quick-links">
+          <h6>QUICK LINKS</h6>
+          <div class="link">
+            <a href="patient.html">Patient login</a>
+            <a href="doctor.html">Doctor login</a>
+            <a href="#contact">Contact us</a>
+            <a href="terms.html">Terms and Conditions</a>
+          </div>
+        </div>
+  
+        <div class="contact-us">
+          <h6>EMERGENCY CONTACT</h6>
+          <div>
+            <p>Call: 555-555-5555</p>
+            
+      </div>
+    </div>
+  
+  </div>
+ 
+  <div class="footer">
+    <p>&copy; 2024 TeleCure. All rights reserved.</p>
+  </div>
+ 
+</footer>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
